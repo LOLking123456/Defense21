@@ -121,7 +121,7 @@ end)
 	    end})
 
 	 Tab2:CreateButton({
-	Name = "Auto Collect Fireworks,
+	Name = "Auto Collect Fireworks",
 	Callback = function()
 for i,v in pairs(workspace.Worlds.Lobby.HiddenFireworks:GetChildren()) do 
 if v.Name == "Firework" then 
