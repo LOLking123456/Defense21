@@ -98,7 +98,7 @@ _G.loops = false
 while wait(1) do
 if _G.loops == true then
      
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(39.4210739, 5.25753641, -162.57724, 0.930187762, -2.56666355e-10, -0.367084026, 5.16918418e-11, 1, -5.68216585e-10, 0.367084026, 5.09572884e-10, 0.930187762)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(590.522888, 354.566132, 240.492172, -0.908861041, -4.85626508e-08, -0.417098999, 3.53242685e-10, 1, -1.17199271e-07, 0.417098999, -1.0666519e-07, -0.908861041)
 end
 end
 end)
