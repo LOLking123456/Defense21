@@ -123,7 +123,7 @@ end)
 	 Tab2:CreateButton({
 	Name = "Auto Collect Fireworks (Lobby)",
 	Callback = function()
-for i,v in pairs(workspace.Worlds.Lobby.HiddenFireworks:GetChildren()) do 
+for i,v in pairs(workspace.Worlds.Lobby.HiddenFireworks:GetDescendants()) do 
 if v.Name == "Firework" then 
 wait(4.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
@@ -137,7 +137,7 @@ end})
 	 Tab2:CreateButton({
 	Name = "Auto Collect Fireworks (Trading Plaza)",
 	Callback = function()
-for i,v in pairs(workspace.Worlds.TradingPlaza.HiddenFireworks:GetChildren()) do 
+for i,v in pairs(workspace.Worlds.TradingPlaza.HiddenFireworks:GetDescendants()) do 
 if v.Name == "Firework" then 
 wait(4.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
@@ -150,7 +150,7 @@ end})
  Tab2:CreateButton({
 	Name = "Auto Collect Fireworks (Matches)",
 	Callback = function()
-for i,v in pairs(workspace.HiddenFireworks:GetChildren()) do 
+for i,v in pairs(workspace.HiddenFireworks:GetDescendants()) do 
 if v.Name == "Firework" then 
 wait(4.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
