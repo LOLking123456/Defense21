@@ -121,7 +121,7 @@ end)
 	    end})
 
 	 Tab2:CreateButton({
-	Name = "Auto Collect Fireworks",
+	Name = "Auto Collect Fireworks (Lobby)",
 	Callback = function()
 for i,v in pairs(workspace.Worlds.Lobby.HiddenFireworks:GetChildren()) do 
 if v.Name == "Firework" then 
@@ -133,6 +133,32 @@ end
 
 end})
 
+
+	 Tab2:CreateButton({
+	Name = "Auto Collect Fireworks (Trading Plaza)",
+	Callback = function()
+for i,v in pairs(workspace.Worlds.TradingPlaza.HiddenFireworks:GetChildren()) do 
+if v.Name == "Firework" then 
+wait(4.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+
+
+end})
+
+ Tab2:CreateButton({
+	Name = "Auto Collect Fireworks (Matches)",
+	Callback = function()
+for i,v in pairs(workspace.HiddenFireworks:GetChildren()) do 
+if v.Name == "Firework" then 
+wait(4.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end
+end
+
+
+end})
 	 Tab2:CreateToggle({
 	Name = "Auto Trade Macro (FIXED)",
 	CurrentValue = false,
